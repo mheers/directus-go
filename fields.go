@@ -36,6 +36,7 @@ type FieldMeta struct {
 	Required bool `json:"required"`
 
 	Interface string `json:"interface"`
+	Note      string `json:"note,omitempty"`
 
 	Sort    int64          `json:"sort,omitempty"`
 	System  bool           `json:"system,omitempty"`
