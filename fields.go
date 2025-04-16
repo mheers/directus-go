@@ -35,6 +35,8 @@ type FieldMeta struct {
 	ReadOnly bool `json:"read_only"`
 	Required bool `json:"required"`
 
+	Interface string `json:"interface"`
+
 	Sort    int64          `json:"sort,omitempty"`
 	System  bool           `json:"system,omitempty"`
 	Special []FieldSpecial `json:"special,omitempty"`
